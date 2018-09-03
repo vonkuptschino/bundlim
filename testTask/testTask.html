@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>test</title>
+	<meta charset="utf-8">
+	<meta name="author" content="Grecha">
+	<script type="text/javascript" language="javascript">
+	</script>
+	<style type="text/css">
+	*{
+	  	box-sizing: border-box;
+	  	font-family: Helvetica, Arial, sans-serif;
+  	}
+	#TicTac{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: wrap;
+		width: 212px;
+		margin: 0 auto 50px;
+		border: 1px solid #000;
+	}
+	.cell{
+		position: relative;
+  		width: 70px;
+  		height: 70px;
+  		border: 1px solid #000;
+  		cursor: pointer;
+  		text-align: center;
+  		font-size: 60px;
+	}
+	#reset{
+		display: block;
+  		margin: 0 auto;
+  		border: 1px solid #000;
+  		border-radius: 20px;
+  		padding: 10px 10px;
+  		cursor: pointer;
+	}
+	#message{
+		display: block;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	</style>
+	<script src="testTask.js" type="text/javascript"></script> 
+</head>
+<body>
+	<div id="TicTac"></div>
+	<span id="message"></span>
+	<button id="reset">reset</button>
+</body>
+</html>
